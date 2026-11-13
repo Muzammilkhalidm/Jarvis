@@ -1,0 +1,14 @@
+MARK LIV - WINDOWS QUICK START
+
+1. Install Python 3.13 (64-bit) from https://www.python.org/downloads/
+   During installation, enable "Add Python to PATH".
+2. Extract this ZIP to a normal folder, e.g. C:\Mark-LVI-main.
+3. Double-click setup_windows.bat and wait for dependency/browser installation.
+   The setup now creates a local .venv, so it does not modify uv/system Python.
+4. Double-click run_windows.bat to launch MARK LIV.
+5. On the first-run setup screen, paste a NEW Gemini API key and complete setup.
+   Do not share config/api_keys.json; it contains your private API key.
+
+If Python 3.13 is not found, install it and run setup_windows.bat again.
+Python 3.14 may work, but this project is tested through Python 3.13 and some
+packages may not yet provide Python 3.14 wheels.
